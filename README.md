@@ -12,6 +12,9 @@ Regras necessárias no concentrador, basta executar no terminal do mikrotik:
 /ipv6 firewall filter add action=drop chain=forward src-address-list=BloqV6
 
 
+
+
+
 Proibido comercializar sem autorização prévia do autor.
 
 Contribuição para o rivotril, PIX chave aleatória: 338ab148-86eb-44c6-8c6a-201849f8ccaf 
