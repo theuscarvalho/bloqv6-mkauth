@@ -2,6 +2,7 @@
 Script para bloqueio IPv6 através do mk-auth
 
 Para instalar basta executar o comando abaixo no terminal utilizando o putty:
+
 wget -O - https://raw.githubusercontent.com/theuscarvalho/bloqv6-mkauth/main/instala.sh | bash
 
 Regras necessárias no concentrador, basta executar no terminal do mikrotik:
