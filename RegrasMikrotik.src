@@ -1,0 +1,2 @@
+/ppp profile set on-down="/ipv6 firewall address-list remove [find comment=\$user\ ];" [find use-ipv6=yes];
+/ipv6 firewall filter add action=drop chain=forward src-address-list=BloqV6
