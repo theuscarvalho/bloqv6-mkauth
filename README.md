@@ -1,11 +1,11 @@
 # bloqv6-mkauth
 Script para bloqueio IPv6 através do mk-auth
 
-Para instalar basta executar o comando abaixo no terminal utilizando o putty:
+<b><h3>Para instalar basta executar o comando abaixo no terminal utilizando o putty:</h3></b>
 
 wget -O - https://raw.githubusercontent.com/theuscarvalho/bloqv6-mkauth/main/instala.sh | bash
 
-Regras necessárias no concentrador, basta executar no terminal do mikrotik:
+<b ><h3>Regras necessárias no concentrador, basta executar no terminal do mikrotik:</h3></b>
 
 /ppp profile set on-down="/ipv6 firewall address-list remove [find comment=\\$user\];" [find use-ipv6=yes];
 
@@ -14,6 +14,6 @@ Regras necessárias no concentrador, basta executar no terminal do mikrotik:
 <br/>
 <br/>
 <br/>
-Proibido comercializar sem autorização prévia do autor.
+<i>Proibido comercializar sem autorização prévia do autor.
 
-Contribuição para o rivotril, PIX chave aleatória: 338ab148-86eb-44c6-8c6a-201849f8ccaf 
+Contribuição para o rivotril, PIX chave aleatória: 338ab148-86eb-44c6-8c6a-201849f8ccaf</i>
